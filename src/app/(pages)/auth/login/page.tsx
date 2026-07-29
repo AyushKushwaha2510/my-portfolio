@@ -1,5 +1,4 @@
 import { redirect } from "next/navigation";
-
 import { auth } from "@/auth";
 import { LoginForm } from "@/app/features/auth/components/login-form";
 
