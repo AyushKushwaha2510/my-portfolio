@@ -14,30 +14,30 @@ export default function Scene() {
 
       <ambientLight intensity={1.2} />
 
-<ambientLight intensity={0.8} />
+      <ambientLight intensity={0.8} />
 
-<directionalLight
-  position={[5, 5, 5]}
-  intensity={2.5}
-/>
+      <directionalLight
+        position={[5, 5, 5]}
+        intensity={2.5}
+      />
 
-<pointLight
-  position={[0, 0, 2]}
-  color="#3b82f6"
-  intensity={15}
-/>
+      <pointLight
+        position={[0, 0, 2]}
+        color="#3b82f6"
+        intensity={15}
+      />
 
-<pointLight
-  position={[-5, -2, -2]}
-  color="#8b5cf6"
-  intensity={8}
-/>
+      <pointLight
+        position={[-5, -2, -2]}
+        color="#8b5cf6"
+        intensity={8}
+      />
 
-<pointLight
-  position={[5, 2, -2]}
-  color="#22d3ee"
-  intensity={8}
-/>
+      <pointLight
+        position={[5, 2, -2]}
+        color="#22d3ee"
+        intensity={8}
+      />
 
       <pointLight
         position={[0, 0, 0]}
