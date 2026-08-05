@@ -25,5 +25,4 @@ async function dbConnect(): Promise<void> { // here void means , i don't worry a
     }
 }
 
-
 export default dbConnect;
